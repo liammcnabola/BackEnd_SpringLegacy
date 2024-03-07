@@ -64,13 +64,11 @@ public class ItemService {
 			}
 		}
 
-
 		if (newItem.getQuantity() != null && newItem.getQuantity() != 0) {
 
 			existing.setQuantity(newItem.getQuantity());
 
 		}
-
 
 		if (newItem.getCart() != null) {
 			existing.setCart(newItem.getCart());
